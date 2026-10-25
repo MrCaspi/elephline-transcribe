@@ -1,17 +1,9 @@
 {
-  "tests": [
-  ],
+  "tests": [],
   "config": {
     "gpuId": "AMPERE_16",
     "gpuCount": 1,
-    "env": [
-      {
-        "key": "UNUSED_ENV_KEY_HERE",
-        "value": "UNUSED_ENV_VALUE_HERE"
-      }
-    ],
-    "allowedCudaVersions": [
-      "12.7"
-    ]
+    "env": [],
+    "allowedCudaVersions": ["12.8", "12.9"]
   }
 }
