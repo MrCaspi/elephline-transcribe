@@ -1,5 +1,18 @@
 {
-  "tests": [],
+  "tests": [
+    {
+      "name": "full_model_hebrew",
+      "input": {
+        "engine": "stable-whisper",
+        "model": "ivrit-ai/whisper-large-v3-ct2",
+        "transcribe_args": {
+          "url": "https://github.com/metaldaniel/HebrewASR-Comparison/raw/main/HaTankistiot_n12-mp3.mp3",
+          "language": "he"
+        }
+      },
+      "timeout": 900000
+    }
+  ],
   "config": {
     "gpuTypeId": "NVIDIA RTX A4000",
     "gpuCount": 1,
